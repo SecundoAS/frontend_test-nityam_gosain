@@ -15,6 +15,16 @@ git clone <url>
 pnpm i
 pnpm dev
 
+### Develop
+
+To develop all apps and packages, run the following command:
+
+```
+cd product
+pnpm --filter web run dev
+
+```
+
 ### Individual build run
 
 - pnpm --filter run dev
@@ -26,14 +36,4 @@ To build all apps and packages, run the following command:
 ```
 cd my-turborepo
 pnpm build
-```
-
-### Develop
-
-To develop all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm dev
-
 ```
