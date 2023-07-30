@@ -1,4 +1,4 @@
-import React, { memo, useRef, useState, useEffect } from "react";
+import React, { useRef, useState, useEffect } from "react";
 
 import "./styles.css";
 
@@ -67,4 +67,4 @@ const ImageMagnifier = ({ active, smallImage, largeImage }) => {
   );
 };
 
-export default memo(ImageMagnifier);
+export default ImageMagnifier;

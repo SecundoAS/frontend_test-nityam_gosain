@@ -24,7 +24,7 @@ let options = {
   threshold: 0.2,
 };
 
-const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
+const ProductCard = ({ product }) => {
   const targetRef = useIntersect<HTMLImageElement>((entry) => {
     const img = entry.target as HTMLImageElement;
     img.src = img.dataset.src;
