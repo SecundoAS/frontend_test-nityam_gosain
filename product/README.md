@@ -13,7 +13,7 @@ To use the complete app,
 
 git clone <url>
 pnpm i
-pnpm dev
+pnpm dev or pnpm --filter web run dev
 
 ### Develop
 
@@ -27,7 +27,7 @@ pnpm --filter web run dev
 
 ### Individual build run
 
-- pnpm --filter run dev
+- pnpm --filter web run dev
 
 ### Build
 
