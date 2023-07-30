@@ -34,6 +34,6 @@ pnpm --filter web run dev
 To build all apps and packages, run the following command:
 
 ```
-cd my-turborepo
+cd product
 pnpm build
 ```
