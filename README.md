@@ -41,9 +41,9 @@ Candidates can draw inspiration from our [product page](https://www.secundo.no/p
 
 To use the complete app,
 
-git clone <url>
-pnpm i
-pnpm dev
+- git clone <url>
+- pnpm i
+- pnpm dev
 
 ### Develop
 
